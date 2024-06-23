@@ -66,7 +66,7 @@
 				<range>20.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
-				<soundCast>Tier1_SMG_Gun_Sound</soundCast>
+				<soundCast>CBE_Tier1_Weapon_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -120,7 +120,7 @@
 				<range>28.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
-				<soundCast>Tier1_silenced-pistol-sound-effect</soundCast>
+				<soundCast>CBE_Tier1_Weapon_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -174,7 +174,7 @@
 				<range>32.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Purity_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier2_Marine_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -227,7 +227,7 @@
 				<range>35.9</range>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Harmony_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier3_Brawler_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -281,7 +281,7 @@
 				<range>40.9</range>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Harmony_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier4_Marauder_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -334,7 +334,7 @@
 				<range>41.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Purity_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier4_Champion_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -387,7 +387,7 @@
 				<range>35.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Purity_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier3_Sentinel_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -440,7 +440,7 @@
 				<range>40.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Purity_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier4_Centurion_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -493,7 +493,7 @@
 				<range>41.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Purity_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier4_Eidolon_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -546,7 +546,7 @@
 				<range>35.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Supremacy_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier3_Disciple_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -600,7 +600,7 @@
 				<range>40.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Supremacy_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier4_Apostle_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -653,7 +653,7 @@
 				<range>41.9</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Tier3_Harmony_Rifle_Sound</soundCast>
+				<soundCast>CBE_Tier4_Hellion_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>

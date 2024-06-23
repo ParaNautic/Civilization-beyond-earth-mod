@@ -2,7 +2,7 @@
 <Defs>
 
   <SoundDef>
-    <defName>Tier1_SMG_Gun_Sound</defName>
+    <defName>CBE_Tier1_Weapon_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>4</maxVoices>
@@ -11,7 +11,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_clip">
-            <clipPath>SMG_Gun_Sound</clipPath>
+            <clipPath>Tier1+1.5</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -27,7 +27,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Tier2_Rifle_Gun_Sound</defName>
+    <defName>CBE_Tier2_Marine_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>4</maxVoices>
@@ -36,7 +36,60 @@
       <li>
         <grains>
           <li Class="AudioGrain_clip">
-            <clipPath>lvl02Purity_Riflefire</clipPath>
+            <clipPath>Tier2</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
+
+  <SoundDef>
+    <defName>CBE_Tier3_Brawler_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl03+04Harmony</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
+  <SoundDef>
+    <defName>CBE_Tier4_Marauder_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl03+04Harmony</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -52,7 +105,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Tier3_Harmony_Rifle_Sound</defName>
+    <defName>CBE_Tier4_Champion_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>4</maxVoices>
@@ -61,7 +114,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_clip">
-            <clipPath>lvl03Harmony_Riflefire</clipPath>
+            <clipPath>lvl03+04Purity</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -77,7 +130,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Tier3_Supremacy_Rifle_Sound</defName>
+    <defName>CBE_Tier3_Sentinel_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>4</maxVoices>
@@ -86,7 +139,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_clip">
-            <clipPath>lvl03Supremacy_Riflefire</clipPath>
+            <clipPath>lvl03+04Purity</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -102,7 +155,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Tier3_Purity_Rifle_Sound</defName>
+    <defName>CBE_Tier4_Centurion_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>4</maxVoices>
@@ -111,7 +164,84 @@
       <li>
         <grains>
           <li Class="AudioGrain_clip">
-            <clipPath>lvl03Purity_Riflefire</clipPath>
+            <clipPath>lvl03+04Purity</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+Tier 4 (Hellion)-
+
+  <SoundDef>
+    <defName>CBE_Tier4_Eidolon_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl03+04Supremacy</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>CBE_Tier3_Disciple_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl03+04Supremacy</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>CBE_Tier4_Apostle_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl03+04Supremacy</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -127,7 +257,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Tier4_Purity_Rifle_Sound</defName>
+    <defName>CBE_Tier4_Hellion_Sound</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>4</maxVoices>
@@ -136,7 +266,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_clip">
-            <clipPath>lvl04Purity_Riflefire</clipPath>
+            <clipPath>lvl03+04Harmony</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -150,30 +280,4 @@
       </li>
     </subSounds>
   </SoundDef>
-
-  <SoundDef>
-    <defName>Tier1_silenced-pistol-sound-effect</defName>
-    <context>MapOnly</context>
-    <eventNames />
-    <maxVoices>4</maxVoices>
-    <maxSimultaneous>1</maxSimultaneous>
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_clip">
-            <clipPath>silenced-pistol-sound-effect</clipPath>
-          </li>
-        </grains>
-        <volumeRange>
-          <min>80</min>
-          <max>85</max>
-        </volumeRange>
-        <pitchRange>
-          <min>0.935690</min>
-          <max>1.055345</max>
-        </pitchRange>
-      </li>
-    </subSounds>
-  </SoundDef>
-
 </Defs>
