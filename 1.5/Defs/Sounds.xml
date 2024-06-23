@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SoundDef>
+    <defName>Tier1_SMG_Gun_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>SMG_Gun_Sound</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Tier2_Rifle_Gun_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl02Purity_Riflefire</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Tier3_Harmony_Rifle_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl03Harmony_Riflefire</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Tier3_Supremacy_Rifle_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl03Supremacy_Riflefire</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Tier3_Purity_Rifle_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl03Purity_Riflefire</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Tier4_Purity_Rifle_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>lvl04Purity_Riflefire</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Tier1_silenced-pistol-sound-effect</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_clip">
+            <clipPath>silenced-pistol-sound-effect</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>80</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.935690</min>
+          <max>1.055345</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

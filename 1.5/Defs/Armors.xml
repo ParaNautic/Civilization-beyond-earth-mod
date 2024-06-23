@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef Name="CBE_ArmorBase" ParentName="ArmorMachineableBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>Machining</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<Mass>12</Mass>
+		</statBases>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<soundWear>Wear_PowerArmor</soundWear>
+			<soundRemove>Remove_PowerArmor</soundRemove>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="CBE_ArmorBase">
+		<defName>CBE_ArmorSoldier</defName>
+		<label>tier 1 soldier armor</label>
+		<description>A spacesuit is a garment worn to keep a human alive in the harsh environment of outer space, vacuum and temperature extremes. Space suits are often worn inside spacecraft as a safety precaution in case of loss of cabin pressure.</description>
+		<graphicData>
+			<texPath>Things/Tier1_Items/Armor_Tier1_Soldier_UI</texPath>
+		</graphicData>
+		<statBases>
+			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
+			<Insulation_Heat>100</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<EquipDelay>10</EquipDelay>
+			<WorkToMake>30000</WorkToMake>
+			<MarketValue>600</MarketValue>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>45</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Cloth>15</Cloth>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Tier1_Items/Armor_Tier1_Soldier</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CBE_ArmorBase">
+		<defName>CBE_ArmorSoldierUpgrade</defName>
+		<label>tier 1.5 soldier armor</label>
+		<description>A spacesuit is a garment worn to keep a human alive in the harsh environment of outer space, vacuum and temperature extremes. Space suits are often worn inside spacecraft as a safety precaution in case of loss of cabin pressure.</description>
+		<graphicData>
+			<texPath>ModdedSpacesuit/Armor/ModifiedSpaceSuit</texPath>
+		</graphicData>
+		<statBases>
+			<ArmorRating_Sharp>0.82</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.9</ArmorRating_Heat>
+			<Insulation_Heat>100</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<EquipDelay>14</EquipDelay>
+			<WorkToMake>35000</WorkToMake>
+			<MarketValue>650</MarketValue>
+			<MaxHitPoints>310</MaxHitPoints>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>55</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Cloth>20</Cloth>
+		</costList>
+		<apparel>
+			<wornGraphicPath>ModdedSpacesuit/Armor/ModifiedSpaceSuit</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CBE_ArmorBase">
+		<defName>CBE_ArmorMarine</defName>
+		<label>tier 2 marine armor</label>
+		<description>Soldier aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Soldier depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers.</description>
+		<graphicData>
+			<texPath>Things/Tier2_Soldier/Tier2_Soldier_Armor_UI</texPath>
+		</graphicData>
+		<statBases>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
+			<Insulation_Heat>85</Insulation_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<EquipDelay>8</EquipDelay>
+			<WorkToMake>45000</WorkToMake>
+			<MarketValue>750</MarketValue>
+			<MaxHitPoints>320</MaxHitPoints>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>65</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Tier2_Soldier/Tier2_Soldier_Armor</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CBE_ArmorBase">
+		<defName>CBE_ArmorBrawler</defName>
+		<label>tier 3 brawler armor</label>
+		<description>A style which uses many curves, various shades of green, and art which alludes to biological organs and natural features.</description>
+		<graphicData>
+			<texPath>Things/Tier3_Harmony/Tier3_Harmony_Armor_UI</texPath>
+		</graphicData>
+		<statBases>
+			<ArmorRating_Sharp>1.08</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<Insulation_Heat>4</Insulation_Heat>
+			<Insulation_Cold>7.5</Insulation_Cold>
+			<EquipDelay>14</EquipDelay>
+			<WorkToMake>65000</WorkToMake>
+			<MarketValue>2100</MarketValue>
+			<MaxHitPoints>345</MaxHitPoints>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>75</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Tier3_Harmony/Tier3_Harmony_Armor</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>HealthBuff</hediff>
+			</li>
+		</comps>
+	</ThingDef>
+
+  <HediffDef>
+    <defName>HealthBuff</defName>
+    <label>health boost</label>
+    <description>By encouraging and commanding nearby allies, this person can enhance their natural healing capabilities.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_GiveHediffsInRange">
+		<compClass>CivilizationBeyond.HediffComp_GiveHediffsInRange</compClass>
+        <range>9.9</range>
+        <mote>Mote_CombatCommand</mote>
+        <hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>false</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+        </targetingParameters>
+        <hediff>HealthBuffBuff</hediff>
+      </li>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>HealthBuffBuff</defName>
+    <label>health boost</label>
+    <description>Natural healing is increased.</description>
+    <debugLabelExtra>other</debugLabelExtra>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="HediffCompProperties_Link">
+        <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+        <maxDistance>10</maxDistance>
+        <customMote>Mote_CombatCommandLinkLine</customMote>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <naturalHealingFactor>1.5</naturalHealingFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  
+	<ThingDef ParentName="CBE_ArmorBase">
+		<defName>CBE_ArmorMarauder</defName>
+		<label>tier 4 marauder armor</label>
+		<description>A style which uses many curves, various shades of green, and art which alludes to biological organs and natural features.</description>
+		<graphicData>
+			<texPath>Things/Tier4_Harmony/Tier4_Marauder_Armor_UI</texPath>
+		</graphicData>
+		<statBases>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.57</ArmorRating_Heat>
+			<Insulation_Heat>5</Insulation_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<EquipDelay>14</EquipDelay>
+			<WorkToMake>76000</WorkToMake>
+			<MarketValue>3300</MarketValue>
+			<MaxHitPoints>370</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Plasteel>110</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Hyperweave>10</Hyperweave>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Tier4_Harmony/Tier4_Marauder_Armor</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>HealthBuff</hediff>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="CBE_ArmorBase">
+		<defName>CBE_ArmorChampion</defName>
+		<label>tier 4 champion armor</label>
+		<description>Hybrid units blend elements from the primary Affinities together. As they do not excel primarily in one Affinity.</description>
+		<graphicData>
+			<texPath>Things/Tier4_Champion/Tier4_Champion_Armor_UI</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.13</PainShockThreshold>
+			<MoveSpeed>0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<statBases>
+			<ArmorRating_Sharp>1.16</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.49</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.58</ArmorRating_Heat>
+			<Insulation_Heat>6</Insulation_Heat>
+			<Insulation_Cold>9</Insulation_Cold>
+			<EquipDelay>14</EquipDelay>
+			<WorkToMake>80000</WorkToMake>
+			<MarketValue>4000</MarketValue>
+			<MaxHitPoints>380</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Plasteel>130</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Hyperweave>20</Hyperweave>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Tier4_Champion/Tier4_Champion_Armor</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>HealthBuff</hediff>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="CBE_ArmorBase">
+		<defName>CBE_ArmorSentinel</defName>
+		<label>tier 3 sentinel armor</label>
+		<description>The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife.</description>
+		<graphicData>
+			<texPath>Things/Tier3_Purity/Tier3_Purity_Hetmet_UI</texPath>
+		</graphicData>
+		<statBases>
+			<ArmorRating_Sharp>1.08</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<Insulation_Heat>4</Insulation_Heat>
+			<Insulation_Cold>7.5</Insulation_Cold>
+			<EquipDelay>14</EquipDelay>
+			<WorkToMake>65000</WorkToMake>
+			<MarketValue>2100</MarketValue>
+			<MaxHitPoints>345</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Plasteel>75</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Hetmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="CBE_ArmorBase">
+		<defName>CBE_ArmorCenturion</defName>
+		<label>tier 4 centurion armor</label>
+		<description>Purity aesthetics look much like we would expect of a space-oriented mankind in the near future. Architecture is characterized with solid, cubic shapes in gold and red which look a lot like modern cities; units appear mostly human-shaped, and tank-like. That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers.</description>
+		<graphicData>
+		<texPath>Things/Tier4_Purity/Tier4_Purity_Armor_UI</texPath>
+		</graphicData>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.15</PainShockThreshold>
+		</equippedStatOffsets>
+		<statBases>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.57</ArmorRating_Heat>
+			<Insulation_Heat>5</Insulation_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<EquipDelay>14</EquipDelay>
+			<WorkToMake>76000</WorkToMake>
+			<MarketValue>3300</MarketValue>
+			<MaxHitPoints>370</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Plasteel>110</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Hyperweave>10</Hyperweave>
+		</costList>
+		<apparel>
+		<wornGraphicPath>Things/Tier4_Purity/Tier4_Purity_Armor</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CBE_ArmorBase">
+    <defName>CBE_ArmorEidolon</defName>
+    <label>tier 4 eidolon armor</label>
+    <description>Puritanical Supremacists are dedicated to the complete and total separation of man from machine and the perfection of both to the highest degree, constructing enormous robotic war machines with A.I.s of animal-level intelligence piloted by men clad in advanced (but not powered) armor." That is because Purity depends mostly on armored suits and exoskeletons to enhance traditional soldiers, or else on solid, massive machines commanded by soldiers.</description>
+    <graphicData>
+      <texPath>Things/Tier4_Eidolon/Tier4_Eidolon_Armor_UI</texPath>
+    </graphicData>
+    <equippedStatOffsets>
+      <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">13</MechBandwidth>
+      <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">1</MechRepairSpeed>
+	  <MoveSpeed>0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <statBases>
+        <ArmorRating_Sharp>1.16</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.49</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.58</ArmorRating_Heat>
+        <Insulation_Heat>6</Insulation_Heat>
+        <Insulation_Cold>9</Insulation_Cold>
+        <EquipDelay>14</EquipDelay>
+        <WorkToMake>80000</WorkToMake>
+        <MarketValue>4000</MarketValue>
+        <MaxHitPoints>380</MaxHitPoints>
+    </statBases>
+    <costList>
+        <Plasteel>130</Plasteel>
+        <ComponentSpacer>4</ComponentSpacer>
+        <Hyperweave>20</Hyperweave>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Things/Tier4_Eidolon/Tier4_Eidolon_Armor</wornGraphicPath>
+    </apparel>
+</ThingDef>
+
+<ThingDef ParentName="CBE_ArmorBase">
+    <defName>CBE_ArmorDisciple</defName>
+    <label>tier 3 disciple armor</label>
+    <description>Describe the tier 3 disciple armor here.</description>
+    <graphicData>
+      <texPath>Things/Tier3_Supremacy/Tier3_Supremacy_Armor_UI</texPath>
+    </graphicData>
+    <equippedStatOffsets>
+      <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">5</MechBandwidth>
+    </equippedStatOffsets>
+    <statBases>
+        <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.55</ArmorRating_Heat>
+        <Insulation_Heat>4</Insulation_Heat>
+        <Insulation_Cold>7.5</Insulation_Cold>
+        <EquipDelay>14</EquipDelay>
+        <WorkToMake>65000</WorkToMake>
+        <MarketValue>2100</MarketValue>
+        <MaxHitPoints>345</MaxHitPoints>
+    </statBases>
+    <costList>
+        <Plasteel>75</Plasteel>
+        <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <apparel>
+		<wornGraphicPath>Things/Tier3_Supremacy/Tier3_Supremacy_Armor</wornGraphicPath>
+    </apparel>
+</ThingDef>
+
+<ThingDef ParentName="CBE_ArmorBase">
+    <defName>CBE_ArmorApostle</defName>
+    <label>tier 4 apostle armor</label>
+	<description>Supremacy are the most machine-like of the three Affinities. They develop sophisticated AI, make widespread use of autonomous and semi-autonomous robotic systems, and in general go the way of bionics, augmentation and merging human and machine.</description>
+    <graphicData>
+      <texPath>Things/Tier4_Supermacy/Tier4_Supremacy_Armor_UI</texPath>
+    </graphicData>
+    <equippedStatOffsets>
+      <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">10</MechBandwidth>
+      <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">1</HackingSpeed>
+    </equippedStatOffsets>
+    <statBases>
+        <ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.57</ArmorRating_Heat>
+        <Insulation_Heat>5</Insulation_Heat>
+        <Insulation_Cold>8</Insulation_Cold>
+        <EquipDelay>14</EquipDelay>
+        <WorkToMake>76000</WorkToMake>
+        <MarketValue>3300</MarketValue>
+        <MaxHitPoints>370</MaxHitPoints>
+    </statBases>
+    <costList>
+        <Plasteel>110</Plasteel>
+        <ComponentSpacer>3</ComponentSpacer>
+        <Hyperweave>10</Hyperweave>
+    </costList>
+    <apparel>
+		<wornGraphicPath>Things/Tier4_Supermacy/Tier4_Supremacy_Armor</wornGraphicPath>
+    </apparel>
+</ThingDef>
+
+<ThingDef ParentName="CBE_ArmorBase">
+    <defName>CBE_ArmorHellion</defName>
+    <label>tier 4 hellion armor</label>
+    <description>Hybrid units blend elements from the primary Affinities together. As they do not excel primarily in one Affinity.</description>
+    <graphicData>
+      <texPath>Things/Tier4_Hellion/Tier4_Hellion_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+        <ArmorRating_Sharp>1.16</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.49</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.58</ArmorRating_Heat>
+        <Insulation_Heat>6</Insulation_Heat>
+        <Insulation_Cold>9</Insulation_Cold>
+        <EquipDelay>14</EquipDelay>
+        <WorkToMake>80000</WorkToMake>
+        <MarketValue>4000</MarketValue>
+        <MaxHitPoints>380</MaxHitPoints>
+    </statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>0.2</MoveSpeed>
+		<MechFormingSpeed MayRequire="Ludeon.RimWorld.Biotech">1</MechFormingSpeed>
+	</equippedStatOffsets>
+    <costList>
+        <Plasteel>130</Plasteel>
+        <ComponentSpacer>4</ComponentSpacer>
+        <Hyperweave>20</Hyperweave>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Things/Tier4_Hellion/Tier4_Hellion_Armor</wornGraphicPath>
+    </apparel>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>HealthBuff</hediff>
+			</li>
+		</comps>
+</ThingDef>
+</Defs>
