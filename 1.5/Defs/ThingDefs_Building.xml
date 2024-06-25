@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--defaultPlacingRot>South</defaultPlacingRot-->
+
+  <!--==============================================
+  ================= building Base ==================
+  ===============================================-->
+
+  <ThingDef Name="CBEBuildingBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshOnly</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <statBases>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <hasInteractionCell>false</hasInteractionCell>
+    <designationCategory>Misc</designationCategory>
+    <designationHotKey>Misc3</designationHotKey>
+    <!--interactionCellOffset>(0,0,-1)</interactionCellOffset-->
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <!--========== Harmony Banner ==========-->
+
+  <ThingDef ParentName="CBEBuildingBase">
+    <defName>Banner_Harmony</defName>
+    <label>Harmony Banner</label>
+    <description>Flag Pole beaing the sign of Harmony</description>
+    <graphicData>
+      <texPath>Things/Building/Harmony_Banner</texPath>
+      <drawSize>(3.5,3.5)</drawSize>
+      <damageData>
+        <rect>(0,0,3,1.8)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.8, 0.35, 0.59)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(1,1)</size>
+    <uiIconPath>Things/Building/Harmony_Banner_UI</uiIconPath>           <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <!--uiIconScale>1.2</uiIconScale-->                                      <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <!--uiIconOffset>(2,-0.05)</uiIconOffset-->                         <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <building>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Furniture</designationCategory>
+  </ThingDef>
+
+  <!--========== Purity Banner ==========-->
+
+  <ThingDef ParentName="CBEBuildingBase">
+    <defName>Banner_Purity</defName>
+    <label>Purity Banner</label>
+    <description>Flag Pole beaing the sign of Purity</description>
+    <graphicData>
+      <texPath>Things/Building/Purity_Banner</texPath>
+      <drawSize>(3.5,3.5)</drawSize>
+      <damageData>
+        <rect>(0,0,3,1.8)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.8, 0.35, 0.59)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(1,1)</size>
+    <uiIconPath>Things/Building/Purity_Banner_UI</uiIconPath>           <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <!--uiIconScale>1.2</uiIconScale-->                                      <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <!--uiIconOffset>(2,-0.05)</uiIconOffset-->                         <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <building>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Furniture</designationCategory>
+  </ThingDef>
+
+  <!--========== Supremacy Banner ==========-->
+
+  <ThingDef ParentName="CBEBuildingBase">
+    <defName>Banner_Supremacy</defName>
+    <label>Supremacy Banner</label>
+    <description>Flag Pole beaing the sign of Supremacy</description>
+    <graphicData>
+      <texPath>Things/Building/Supremacy_Banner</texPath>
+      <drawSize>(3.5,3.5)</drawSize>
+      <damageData>
+        <rect>(0,0,3,1.8)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.8, 0.35, 0.59)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(1,1)</size>
+    <uiIconPath>Things/Building/Supremacy_Banner_UI</uiIconPath>           <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <!--uiIconScale>1.2</uiIconScale-->                                      <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <!--uiIconOffset>(2,-0.05)</uiIconOffset-->                         <!-- ///// Note: Save this Line for other Building...This going to be useful later ///// -->
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <building>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Furniture</designationCategory>
+  </ThingDef>
+
+</Defs>
