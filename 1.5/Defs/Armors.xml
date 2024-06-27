@@ -297,7 +297,7 @@
 		<label>tier 3 sentinel armor</label>
 		<description>The Purity affinity desires to preserve and improve upon mankind as they are and seeks to convert the planet into a state similar to Old Earth before the Great Mistake, regardless of what happens to the local wildlife.</description>
 		<graphicData>
-			<texPath>Things/Tier3_Purity/Tier3_Purity_Hetmet_UI</texPath>
+			<texPath>Things/Tier3_Purity/Tier3_Purity_Armor_UI</texPath>
 		</graphicData>
 		<statBases>
 			<ArmorRating_Sharp>1.08</ArmorRating_Sharp>
@@ -315,7 +315,7 @@
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<apparel>
-			<wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Hetmet</wornGraphicPath>
+			<wornGraphicPath>Things/Tier3_Purity/Tier3_Purity_Armor</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 	
