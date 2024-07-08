@@ -59,6 +59,9 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 			<Cloth>5</Cloth>
 		</costList>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/Tier1_Items/Helmet_Tier1_Soldier</wornGraphicPath>
 		</apparel>
@@ -83,6 +86,9 @@
 			<MarketValue>425</MarketValue>
 			<MaxHitPoints>145</MaxHitPoints>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<Steel>30</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
@@ -116,6 +122,9 @@
 			<Plasteel>5</Plasteel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/Tier2_Soldier/Tier2_Soldier_Helmet</wornGraphicPath>
 		</apparel>
@@ -143,6 +152,9 @@
 			<Plasteel>45</Plasteel>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/Tier3_Harmony/Tier3_Harmony_Helmet</wornGraphicPath>
 		</apparel>
@@ -166,6 +178,9 @@
 			<MarketValue>700</MarketValue>
 			<MaxHitPoints>180</MaxHitPoints>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.9</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<Plasteel>50</Plasteel>
 			<ComponentSpacer>2</ComponentSpacer>
@@ -194,6 +209,9 @@
 			<MarketValue>800</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<Plasteel>55</Plasteel>
 			<ComponentSpacer>2</ComponentSpacer>
@@ -222,6 +240,9 @@
 			<MarketValue>600</MarketValue>
 			<MaxHitPoints>165</MaxHitPoints>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<Plasteel>45</Plasteel>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -240,6 +261,7 @@
 		</graphicData>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.9</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 		<statBases>
 			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
@@ -280,6 +302,9 @@
 			<MarketValue>800</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<Plasteel>55</Plasteel>
 			<ComponentSpacer>2</ComponentSpacer>
@@ -308,6 +333,9 @@
 			<MarketValue>600</MarketValue>
 			<MaxHitPoints>165</MaxHitPoints>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<Plasteel>45</Plasteel>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -335,6 +363,9 @@
 			<MarketValue>700</MarketValue>
 			<MaxHitPoints>180</MaxHitPoints>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.9</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<Plasteel>50</Plasteel>
 			<ComponentSpacer>2</ComponentSpacer>
@@ -363,6 +394,9 @@
 			<MarketValue>800</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<Plasteel>55</Plasteel>
 			<ComponentSpacer>2</ComponentSpacer>
