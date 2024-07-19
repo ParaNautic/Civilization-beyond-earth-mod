@@ -34,10 +34,10 @@
 			</li>
 		</tools>
 	</ThingDef>
-
+	
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponSoldier</defName>
-		<label>Tier 1 soldier weapon</label>
+		<label>soldier weapon</label>
 		<description>A Weapon From the old World</description>
 		<graphicData>
 			<texPath>Things/Tier1_Items/Carbine_Tier1_Soldier</texPath>
@@ -90,7 +90,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponUpgrade</defName>
-		<label>tier 1.5 soldier weapon</label>
+		<label>soldier weapon (upgrade)</label>
 		<description>A Weapon From the old World.</description>
 		<graphicData>
 			<texPath>Things/Tier1_Modded/Carbine_Modded_Soldier</texPath>
@@ -144,7 +144,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponMarine</defName>
-		<label>tier 2 marine weapon</label>
+		<label>marine weapon</label>
 		<description>Soldier military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles.</description>
 		<graphicData>
 			<texPath>Things/Tier2_Soldier/Tier2_Soldier_Weapon</texPath>
@@ -198,7 +198,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponBrawler</defName>
-		<label>tier 3 brawler weapon</label>
+		<label>brawler weapon</label>
 		<description>Harmony appear to make heavy use of poison-like substances in their munitions, likely militarized variants of the chemically degrading biological clouds of fungal spores dubbed Miasma by the colonists, only of course on a far more concentrated and magnified scale.</description>
 		<graphicData>
 			<texPath>Things/Tier3_Harmony/Harmony_weapon</texPath>
@@ -251,7 +251,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponMarauder</defName>
-		<label>tier 4 marauder weapon</label>
+		<label>marauder weapon</label>
 		<description>Harmony appear to make heavy use of poison-like substances in their munitions, likely militarized variants of the chemically degrading biological clouds of fungal spores dubbed Miasma by the colonists, only of course on a far more concentrated and magnified scale.</description>
 		<graphicData>
 			<texPath>Things/Tier4_Harmony/Marauder_weapon</texPath>
@@ -305,7 +305,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponChampion</defName>
-		<label>tier 4 champion weapon</label>
+		<label>champion weapon</label>
 		<description>Hybrid units blend elements from the primary Affinities together. As they do not excel primarily in one Affinity.</description>
 		<graphicData>
 			<texPath>Things/Tier4_Champion/Tier4_Champion_Weapon</texPath>
@@ -358,7 +358,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponSentinel</defName>
-		<label>tier 3 sentinel weapon</label>
+		<label>sentinel weapon</label>
 		<description>Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles.</description>
 		<graphicData>
 			<texPath>Things/Tier3_Purity/Tier3_Purity_Weapon</texPath>
@@ -411,7 +411,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponCenturion</defName>
-		<label>tier 4 centurion weapon</label>
+		<label>centurion weapon</label>
 		<description>Purity military forces concentrate mostly on mechanical exoskeletons, energy weapons, and amphibious attacks, thanks to their armadas of LEV vehicles.</description>
 		<graphicData>
 			<texPath>Things/Tier4_Purity/Tier4_Purity_Weapon</texPath>
@@ -464,7 +464,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponEidolon</defName>
-		<label>tier 4 eidolon weapon</label>
+		<label>eidolon weapon</label>
 		<description>Advanced energy weapons.</description>
 		<graphicData>
 			<texPath>Things/Tier4_Eidolon/Tier4_Eidolon_Weapon</texPath>
@@ -517,7 +517,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponDisciple</defName>
-		<label>tier 3 disciple weapon</label>
+		<label>disciple weapon</label>
 		<description>Supremacy weapons appear fire- and explosive-based, with yellow and orange colors which give the impression of superheated blast shells.</description>
 		<graphicData>
 			<texPath>Things/Tier3_Supremacy/Supremacy_weapon</texPath>
@@ -570,7 +570,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponApostle</defName>
-		<label>tier 4 apostle weapon</label>
+		<label>apostle weapon</label>
 		<description>Supremacy weapons appear fire- and explosive-based, with yellow and orange colors which give the impression of superheated blast shells.</description>
 		<graphicData>
 			<texPath>Things/Tier4_Supermacy/Tier4_Supremacy_Weapon</texPath>
@@ -624,7 +624,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponHellion</defName>
-		<label>tier 4 hellion weapon</label>
+		<label>hellion weapon</label>
 		<description>Hybrid units blend elements from the primary Affinities together. As they do not excel primarily in one Affinity.</description>
 		<graphicData>
 			<texPath>Things/Tier4_Hellion/Tier4_Hellion_Weapon</texPath>
