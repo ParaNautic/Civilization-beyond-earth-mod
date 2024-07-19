@@ -37,7 +37,7 @@
 	
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponSoldier</defName>
-		<label>soldier weapon</label>
+		<label>CSMG</label>
 		<description>A Weapon From the old World</description>
 		<graphicData>
 			<texPath>Things/Tier1_Items/Carbine_Tier1_Soldier</texPath>
@@ -90,7 +90,7 @@
 
 	<ThingDef ParentName="CBE_WeaponBase">
 		<defName>CBE_WeaponUpgrade</defName>
-		<label>soldier weapon (upgrade)</label>
+		<label>CSMG MK2</label>
 		<description>A Weapon From the old World.</description>
 		<graphicData>
 			<texPath>Things/Tier1_Modded/Carbine_Modded_Soldier</texPath>

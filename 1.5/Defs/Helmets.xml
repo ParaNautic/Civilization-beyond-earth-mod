@@ -67,7 +67,6 @@
 		</apparel>
 	</ThingDef>
 
-
 	<ThingDef ParentName="CBE_HelmetBase">
 		<defName>CBE_HelmetSoldierUpgrade</defName>
 		<label>tier 1.5 soldier helmet</label>
@@ -98,7 +97,7 @@
 			<wornGraphicPath>ModdedSpacesuit/Helmet/ModifiedSpaceHelmet</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="CBE_HelmetBase">
 		<defName>CBE_HelmetMarine</defName>
 		<label>tier 2 marine helmet</label>
@@ -141,8 +140,8 @@
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.54</ArmorRating_Heat>
-			<Insulation_Heat>4</Insulation_Heat>
-			<Insulation_Cold>7.5</Insulation_Cold>
+			<Insulation_Heat>90</Insulation_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>22000</WorkToMake>
 			<MarketValue>600</MarketValue>
@@ -171,8 +170,8 @@
 			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.49</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.56</ArmorRating_Heat>
-			<Insulation_Heat>5</Insulation_Heat>
-			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>95</Insulation_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>25000</WorkToMake>
 			<MarketValue>700</MarketValue>
@@ -202,8 +201,8 @@
 			<ArmorRating_Sharp>1.07</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.48</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.57</ArmorRating_Heat>
-			<Insulation_Heat>6</Insulation_Heat>
-			<Insulation_Cold>8.5</Insulation_Cold>
+			<Insulation_Heat>100</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>28000</WorkToMake>
 			<MarketValue>800</MarketValue>
@@ -233,8 +232,8 @@
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.54</ArmorRating_Heat>
-			<Insulation_Heat>4</Insulation_Heat>
-			<Insulation_Cold>7.5</Insulation_Cold>
+			<Insulation_Heat>90</Insulation_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>22000</WorkToMake>
 			<MarketValue>600</MarketValue>
@@ -267,8 +266,8 @@
 			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.49</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.56</ArmorRating_Heat>
-			<Insulation_Heat>5</Insulation_Heat>
-			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>95</Insulation_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>25000</WorkToMake>
 			<MarketValue>700</MarketValue>
@@ -295,8 +294,8 @@
 			<ArmorRating_Sharp>1.07</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.48</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.57</ArmorRating_Heat>
-			<Insulation_Heat>6</Insulation_Heat>
-			<Insulation_Cold>8.5</Insulation_Cold>
+			<Insulation_Heat>100</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>28000</WorkToMake>
 			<MarketValue>800</MarketValue>
@@ -326,8 +325,8 @@
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.54</ArmorRating_Heat>
-			<Insulation_Heat>4</Insulation_Heat>
-			<Insulation_Cold>7.5</Insulation_Cold>
+			<Insulation_Heat>90</Insulation_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>22000</WorkToMake>
 			<MarketValue>600</MarketValue>
@@ -344,7 +343,7 @@
 			<wornGraphicPath>Things/Tier3_Supremacy/Tier3_Supremacy_Helmet</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-
+	
 	<ThingDef ParentName="CBE_HelmetBase">
 		<defName>CBE_HelmetApostle</defName>
 		<label>tier 4 apostle helmet</label>
@@ -356,8 +355,8 @@
 			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.49</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.56</ArmorRating_Heat>
-			<Insulation_Heat>5</Insulation_Heat>
-			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>95</Insulation_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>25000</WorkToMake>
 			<MarketValue>700</MarketValue>
@@ -387,8 +386,8 @@
 			<ArmorRating_Sharp>1.07</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.48</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.57</ArmorRating_Heat>
-			<Insulation_Heat>6</Insulation_Heat>
-			<Insulation_Cold>8.5</Insulation_Cold>
+			<Insulation_Heat>100</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
 			<WorkToMake>28000</WorkToMake>
 			<MarketValue>800</MarketValue>
